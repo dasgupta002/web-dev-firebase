@@ -1,2 +1,2 @@
 # web-dev-firebase
-Into OuAuth with Firebase into JS and React!
+Into OuAuth with Firebase, CRUD and much more into JS and React!
