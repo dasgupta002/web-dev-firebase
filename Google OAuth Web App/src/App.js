@@ -25,7 +25,6 @@ function App() {
         setLogState(false)
       }
     });
-
   }, [logState])
 
   const loginUser = () => {
