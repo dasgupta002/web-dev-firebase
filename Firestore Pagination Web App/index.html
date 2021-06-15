@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Firestore Pagination Web App</title>
+        <script src = "https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+        <script src = "https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+    </head>
+    <body>
+        <div class = "container"></div>
+        <div class = "loading">Loading more . .</div>
+        <script>
+           var firebaseConfig = {
+               apiKey: "AIzaSyDWYKP1cdaDSaid8QFRrVXYkhEYEHeCiv4",
+               authDomain: "firestore-pagination-3c7e4.firebaseapp.com",
+               projectId: "firestore-pagination-3c7e4",
+               storageBucket: "firestore-pagination-3c7e4.appspot.com",
+               appId: "1:392190230338:web:311ff35f5955a3189352db"
+           };
+           firebase.initializeApp(firebaseConfig);
+           const db = firebase.firestore();
+        </script>
+        <script type = "text/javascript" src = "app.js"></script>
+    </body>
+</html>
